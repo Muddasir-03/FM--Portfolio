@@ -1,0 +1,552 @@
+.success-asp h1{
+    text-align: center;
+    margin: 5% 0 3% 0;
+    text-transform: uppercase;
+}
+
+.success-asp #colr {
+    color: #1c1852;
+}
+
+.success-asp .actionBtn {
+display: flex;
+gap: 20%;
+margin-left: 15%;
+
+}
+
+.success-asp .actionBtn .btn {
+padding: 11px 30px;
+border-radius: 5px;
+border: none;
+outline: none;
+font-size: 1em;
+font-weight: 500;
+background: black;
+color: lavenderblush;
+height: 45px;
+}
+
+.success-asp .actionBtn .btn:hover {
+background-color:white ;
+color: white;
+}
+
+.success-asp .actionBtn .btn:nth-child(2) {
+border: 1px solid #999;
+color: #999;
+background: lavenderblush;
+
+}
+
+.success-asp .reveal2 .asp {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    margin-left: 0rem;
+}
+.success-asp .asp h1{
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
+.success-asp .asp h1 span{
+    font-family: 'Play', sans-serif;
+}
+.success-asp .asp{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    margin-left: 17rem;
+}
+.success-asp .asph1{
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
+.success-asp .asp h1 span{
+    font-family: 'Play', sans-serif;
+}
+
+
+.success-asp .success-cards {
+  
+    height: 370px;
+    width: 95%;
+    max-width: 850px;
+    margin: auto;
+    border-radius: 25px;
+    background-color:gray;
+
+}
+
+.success-asp .success-content {
+    position: absolute;
+    display: flex;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.success-asp #imgTap:checked~.success-content {
+    padding: 0;
+    transition: .1s ease-in;
+}
+
+.success-asp .success-content .success-img {
+    height: 180px;
+    width: 260px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 3px 15px #000000e7;
+}
+
+.success-asp #imgTap:checked~.success-content .success-img {
+    height: 370px;
+    width: 850px;
+    z-index: 99;
+    margin-top: 10px;
+    transition: .3s .2s ease-in;
+}
+
+.success-asp .success-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+
+    transition: .6s;
+}
+
+#tap-2:checked~.success-content .success-img-2,
+#tap-3:checked~.success-content .success-img-3 {
+    opacity: 1;
+    transition-delay: .2s;
+}
+
+.success-asp .success-text {
+    padding: 0 20px 0 35px;
+    width: 520px;
+    margin-left: 30px;
+   
+    transition: .6s;
+}
+
+#imgTap:checked~.inner-part .success-text {
+    display: none;
+}
+
+#tap-1:checked~.success-content .success-text-1,
+#tap-2:checked~.success-content .success-text-2,
+#tap-3:checked~.success-content .success-text-3 {
+    opacity: 1;
+    margin-left: 0px;
+    z-index: 100;
+    transition-delay: .3s;
+}
+
+.success-asp .success-text span {
+    display: block;
+    color: #0a090e;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 500
+}
+
+.success-asp .success-text .success-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.success-asp .success-text .success-dis {
+    color: #0a090e;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-right: 55px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.success-asp .success-text button {
+    display: inline-flex;
+    padding: 15px 15px;
+    border: none;
+    font-size: 16px;
+    color: #fff0e6;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    /* border: 1px solid #23ccf6; */
+    /* background: #4e43f0; */
+    text-decoration: none;
+}
+
+.success-asp .actionBtn a{
+    text-decoration: none;
+}
+
+.success-asp .success-text button:hover {
+    background: linear-gradient(150deg, #4e43f0 0%, #4e43f0 74%);
+}
+
+.success-asp .success-sliders {
+    position: absolute;
+    bottom: 25px;
+    left: 65%;
+    transform: translateX(-50%);
+    z-index: 12;
+}
+
+#imgTap:checked~.success-sliders {
+    display: none;
+}
+
+.success-asp .success-sliders .tap {
+    position: relative;
+  
+    width: 50px;
+    background: #d9d9d9;
+    border-radius: 5px;
+    display: inline-flex;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.success-asp .success-sliders .tap:hover {
+    background: #cccccc;
+}
+
+.success-asp .success-sliders .tap:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: -100%;
+    background: linear-gradient(150deg, #23ccf6 0%, #4e43f0 74%);
+    border-radius: 10px;
+    transform: scaleX(0);
+    transition: transform .6s;
+    transform-origin: left;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: none;
+}
+
+#tap-1:checked~.success-sliders .tap-1:before,
+#tap-2:checked~.success-sliders .tap-2:before,
+#tap-3:checked~.success-sliders .tap-3:before {
+    transform: scaleX(1);
+    width: 100%;
+}
+
+.carousel #btns {
+    z-index: -9999;
+}
+
+
+
+
+.success-asp .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.success-asp .container2 a {
+    position: relative;
+    width: 100px;
+    height: 35px;
+    display: inline-block;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+
+.success-asp .container2 a:after,
+.success-asp .container2 a:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: aqua;
+    transition: 0.5s;
+}
+
+.success-asp .container2 a:nth-child(1):before,
+.success-asp .container2 a:nth-child(1):after {
+    background: linear-gradient(30deg, #62a2cd, #1c1852, purple, blue, #293462);
+}
+
+.success-asp a:hover:before {
+    inset: -3px;
+}
+
+.success-asp a:hover:after {
+    inset: -3px;
+    filter: blur(10px);
+}
+
+
+.success-asp .container2 a .colour span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #999;
+    border-radius: 0px;
+    overflow: hidden;
+    color: black;
+    background: lavenderblush;
+}
+
+.success-asp .container2 a span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.075);
+    transform: skew(25deg);
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: none;
+    display: none;
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
+  /* display: none; */
+}
+
+@media screen and (max-width:850px) {
+    
+    .success-asp .success-text .success-dis{
+        padding-right: 90px;
+    }
+
+    .success-asp .actionBtn {
+        gap: 20%;
+        margin-left: 10%;
+    }
+    
+    
+}
+
+@media screen and (max-width:800px) {
+    .success-asp .success-text {
+        padding: 0 20px 0 15px;
+        width: 450px;
+        margin-left: 20px;
+        
+    }
+
+    .success-asp .actionBtn {
+        gap: 15%;
+        margin-left: 8%;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .success-asp .success-text {
+        padding: 0 20px 0 15px;
+        width: 450px;
+        margin-left: 1px;
+        
+    }
+
+    .success-asp .success-content {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin-left: 8%;
+    
+}
+
+.success-asp .success-cards {
+    height: 600px;
+    width: 550px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: #B2C8DF;
+}
+
+.success-asp .success-text span{
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.success-asp .success-text .success-title{
+    text-align: center;
+    margin: 5px 0;
+}
+
+.success-asp .success-text .success-dis{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+.success-asp .actionBtn {
+    gap: 10%;
+    margin-left: 20%;
+    
+}
+}
+
+@media screen and (max-width:600px) {
+    .success-asp .success-cards {
+        width: 500px;
+    }
+
+    .success-asp .success-content {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .success-asp .success-cards {
+        width: 450px;
+    }
+
+    .success-asp .success-content {
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .success-asp .success-cards {
+        height: 610px;
+        width: 400px;
+    }
+
+    .success-asp .success-content {
+        margin-left: 0%;
+    }
+
+    .success-asp .success-text{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .success-asp .success-cards {
+        height: 650px;
+        width: 350px;
+    }
+
+    .success-asp .success-text{
+        width: 350px;
+    }
+
+    .success-asp .actionBtn {
+        gap: 10%;
+        margin-left: 13%;
+        
+    }
+
+    .success-asp .success-content {
+        height: 650px;
+    }
+
+    .success-asp .success-content .success-img {
+        height: 250px;
+        width: 230px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .success-asp .success-cards {
+        height: 650px;
+        width: 300px;
+    }
+
+    .success-asp .success-text{
+        width: 300px;
+    }
+
+
+    .success-asp .success-content {
+        height: 650px;
+    }
+
+    .success-asp .success-content .success-img {
+        height: 230px;
+        width: 210px;
+    }
+
+    .success-asp .actionBtn {
+        gap: 10%;
+        margin-left: 7%;
+        
+    }
+}
+
+@media screen and (max-width:350px) {
+    .success-asp .success-cards {
+        height: 650px;
+        width: 300px;
+    }
+
+    .success-asp .success-text{
+        width: 300px;
+    }
+
+   
+    .success-asp .success-content {
+        height: 650px;
+    }
+
+    .success-asp .actionBtn {
+        gap: 10%;
+        margin-left: 7%;
+        
+    }
+}
+
+
+@media screen and (max-width:300px) {
+    .success-asp .success-cards {
+        height: 700px;
+        width: 250px;
+    }
+
+    .success-asp .success-text{
+        width: 250px;
+    }
+
+   
+    .success-asp .success-content {
+        height: 700px;
+    }
+
+    .success-asp .actionBtn {
+        gap: 5%;
+        margin-left: 0%;
+        
+    }
+}
+
