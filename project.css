@@ -76,10 +76,9 @@ background: lavenderblush;
     max-width: 850px;
     margin: auto;
     border-radius: 25px;
-    /* background-color:lightgray; */
+    background-color:#3e3e3e;
 
 }
-
 .success-asp .success-content {
     position: absolute;
     display: flex;
@@ -365,7 +364,7 @@ body {
     position: fixed;
     width: 200%;
     height: 12em;
-    animation: wave 10s -3s linear infinite;
+    animation: wave 10s -3s linear infinite;card
     transform: translate3d(0, 0, 0);
     opacity: 0.8;
     bottom: 0;

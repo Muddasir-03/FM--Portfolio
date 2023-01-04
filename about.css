@@ -15,8 +15,7 @@
     /* height: 40vh; */
 }
 .cards .card-header{
-    /* background-color: transparent;
-    border: 0; */
+    color: #1c1852;
 }
 #ml{
     margin-left: 15%;
@@ -62,26 +61,28 @@
 }
 .card{
     border-radius: 20px;
-    background-color:#333;
+    background-color:#3e3e3e;
     transition: 0.5s;
     /* border:2px solid lightseagreen; */
-    color:snow;
+    color:black;
 }
 .card:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 20px 0 lightseagreen;
+    box-shadow: 0 0 20px 0 steelblue;
 }
 body {
     margin: auto;
     font-family: 'Dosis', sans-serif;
-    overflow: auto;
+    background-image: url(/Images/bgimg2.jpg);
+    background-size: cover;
+    /* overflow: auto;
     background: linear-gradient(315deg, rgb(121, 201, 132) 3%,rgb(70, 126, 115) 68%,rgb(120, 165, 209) 38%, rgb(201, 209, 207) 98%);
     animation: gradient 12s ease infinite;
     background-size: 400% 400%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
     0% {
         background-position: 0% 0%;
     }
@@ -139,4 +140,4 @@ body {
     100% {
         transform: translateX(1);
     }
-}
+} */
