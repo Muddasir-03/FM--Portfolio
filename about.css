@@ -30,7 +30,15 @@
     width: 100%;
     text-align: center;
     margin-top: 2%;
-    font-family: 'Play', sans-serif;
+    color: black;
+    font-family: 'Patua One', cursive;
+
+}
+.cards .head h1{
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px crimson;
+
 }
 .card p{
     margin-top: 2%;
@@ -73,8 +81,9 @@
 body {
     margin: auto;
     font-family: 'Dosis', sans-serif;
-    background-image: url(/Images/bgimg2.jpg);
+    background-image: url(/Images/abstract-silk-flow-background.jpg);
     background-size: cover;
+    position: relative;
     /* overflow: auto;
     background: linear-gradient(315deg, rgb(121, 201, 132) 3%,rgb(70, 126, 115) 68%,rgb(120, 165, 209) 38%, rgb(201, 209, 207) 98%);
     animation: gradient 12s ease infinite;

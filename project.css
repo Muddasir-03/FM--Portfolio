@@ -2,6 +2,11 @@
     text-align: center;
     margin: 5% 0 3% 0;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #0a090e;
+    text-shadow: 2px 2px 5px crimson;
+    font-family: 'Patua One', cursive;
 }
 
 .success-asp #colr {
@@ -14,7 +19,9 @@ gap: 20%;
 /* margin-left: 15%; */
 
 }
-
+.carousel{
+    margin-top: 8%;
+}
 .success-asp .actionBtn .btn {
 padding: 11px 15px;
 border-radius: 5px;
@@ -75,7 +82,7 @@ background: lavenderblush;
     width: 95%;
     max-width: 850px;
     margin: auto;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color:#3e3e3e;
 
 }

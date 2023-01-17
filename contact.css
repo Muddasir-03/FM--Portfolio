@@ -8,11 +8,24 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
+  .head1{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .head1 h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #0a090e;
+    text-shadow: 2px 2px 5px crimson;
+    font-family: 'Patua One', cursive;
+  }
+
   body {
     background-image: url(/Images/bgimg2.jpg);
     background-size: cover;
-    font-size: 12px;
+    /* font-size: 12px; */
   }
   
   body, button, input {
@@ -23,7 +36,8 @@
   
   .background {
     display: flex;
-    min-height: 100vh;
+    height: 75vh;
+    font-size: 12px;
   }
   
   .container {
