@@ -8,10 +8,35 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+  .navs a{
+    color: white;
+    text-decoration: none;
+    /* margin-top: 5%;
+    font-family: 'Patua One', cursive;
+    font-size: larger;
+    letter-spacing: 1px; */
+}
+.navs ul{
+  display: flex;
+  color: white;
+  margin-top: 2%;
+  font-family: 'Patua One', cursive;
+  font-size: larger;
+  letter-spacing: 1px;
+  justify-content: space-around;
+}
+.navs ul li{
+  list-style: none;
+
+}
+.navs a:hover{
+  color: crimson;
+  
+}
   .head1{
     color: white;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
   }
   .head1 h1{
     text-transform: uppercase;
@@ -20,10 +45,12 @@
     color: #0a090e;
     text-shadow: 2px 2px 5px crimson;
     font-family: 'Patua One', cursive;
+    letter-spacing: 5px;
   }
 
   body {
-    background-image: url(/Images/bgimg2.jpg);
+    background-image: url(/Images/pexels-little-visuals-1954.jpg);
+    background-position: center;
     background-size: cover;
     /* font-size: 12px; */
   }

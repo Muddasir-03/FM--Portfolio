@@ -8,6 +8,20 @@
     text-shadow: 2px 2px 5px crimson;
     font-family: 'Patua One', cursive;
 }
+.navs a{
+    color: white;
+    margin-top: 5%;
+    font-family: 'Patua One', cursive;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+.navs a:hover{
+  color: crimson;
+  
+}
+.navs{
+    font-weight: 700;
+}
 
 .success-asp #colr {
     /* color: #1c1852; */
@@ -20,7 +34,7 @@ gap: 20%;
 
 }
 .carousel{
-    margin-top: 8%;
+    margin-top: 5%;
 }
 .success-asp .actionBtn .btn {
 padding: 11px 15px;
@@ -339,17 +353,31 @@ input[type="checkbox"] {
     display: none;
 }
 
-.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
-  /* display: none; */
+
+
+.bgimg .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
+    filter: none;
 }
+.bgimg .carousel-dark .carousel-control-prev-icon{
+    filter: none;
+}
+.bgimg .carousel-control-next:hover{
+   filter: none;
+}
+.bgimg .carousel-control-prev:hover{
+    filter: none;
+ }
+
+
 body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     /* overflow: auto; */
     /* background: linear-gradient(315deg, rgb(121, 201, 132) 3%,rgb(70, 126, 115) 68%,rgb(120, 165, 209) 38%, rgb(201, 209, 207) 98%); */
     /* animation: gradient 10s ease infinite; */
-    background-image: url(/Images/bgimg2.jpg);
+    background-image: url(/Images/pexels-little-visuals-1954.jpg);
     background-size: cover;
+    background-position: center;
     /* background-attachment: fixed; */
 }
 
