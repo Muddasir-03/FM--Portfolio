@@ -84,7 +84,7 @@
 }
 .card{
     border-radius: 20px;
-    background-color:gray;
+    background-color:#383838;
     /* transition: 0.5s; */
     box-shadow: 0 0 15px 0 steelblue;
     /* border:2px solid lightseagreen; */
