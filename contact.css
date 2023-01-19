@@ -68,15 +68,17 @@
   }
   
   .container {
-    flex: 0 1 700px;
+    /* flex: 0 1 700px; */
     margin: auto;
     padding: 10px;
+
   }
   
   .screen {
     position: relative;
-    background: #3e3e3e;
+    background: #383838;
     border-radius: 15px;
+    box-shadow: 0 0 15px 0 steelblue;
   }
   
   .screen:after {
@@ -274,8 +276,27 @@
     .app-title:after {
       display: none;
     }
+
   }
-  
+  @media screen and (max-width: 500px){
+    .navs ul{
+      display: flex;
+      flex-wrap: wrap; 
+      /* justify-content: space-between; */
+      }
+  }
+  @media screen and (max-width: 450px){
+    .navs ul{
+      /* display: flex;
+      flex-wrap: wrap;  */
+      /* justify-content: space-between; */
+      }
+  }
+  @media screen and (max-width: 700px){
+    .app-form-group.buttons{
+    display: flex;
+    }
+  }
   @media screen and (max-width: 600px) {
     .screen-body {
       padding: 40px;
@@ -294,11 +315,18 @@
     padding-top:10%;
     color:black;
   }
+  .screen-body .contents i{
+    font-size: medium;
+    margin-top: 6%;
+  }
+  .screen-body .contents i span{
+    text-transform: lowercase;
+  }
   .screen-body .social{
     display: flex;
     width: 100%;
     gap: 15px;
-    padding-top: 10%;
+    padding-top: 15%;
   }
   .screen-body .social li{
    list-style: none;
