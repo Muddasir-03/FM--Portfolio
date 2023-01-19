@@ -20,7 +20,7 @@
   display: flex;
   color: white;
   margin-top: 2%;
-  font-family: 'Patua One', cursive;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
   letter-spacing: 1px;
   justify-content: space-around;
@@ -44,7 +44,7 @@
     font-weight: 600;
     color: #0a090e;
     text-shadow: 2px 2px 5px crimson;
-    font-family: 'Patua One', cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 5px;
   }
 

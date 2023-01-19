@@ -11,7 +11,7 @@
 .navs a{
     color: white;
     margin-top: 5%;
-    font-family: 'Patua One', cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     letter-spacing: 1px;
 }
@@ -70,10 +70,10 @@ background: lavenderblush;
 }
 .success-asp .asp h1{
     text-transform: uppercase;
-    font-family: 'Play', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .success-asp .asp h1 span{
-    font-family: 'Play', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .success-asp .asp{
     display: flex;

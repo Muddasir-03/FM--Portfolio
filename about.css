@@ -6,7 +6,7 @@
 .navs a{
     color: white;
     margin-top: 5%;
-    font-family: 'Patua One', cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     letter-spacing: 1px;
 }
@@ -45,13 +45,14 @@
     text-align: center;
     margin-top: 1%;
     color: black;
-    font-family: 'Patua One', cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .cards .head h1{
     letter-spacing: 3px;
     font-weight: 600;
     text-shadow: 2px 2px 5px crimson;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .card p{
